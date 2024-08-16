@@ -3,7 +3,11 @@ guid: b233b00f8b490f84d96f2f564a98599b
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - player: {fileID: 9204152299204943813, guid: 7b4faf8b4dbe886408cfff96c05bacf4, type: 3}
+  - enemy: {fileID: 995093328795682101, guid: 668035fe4a7a04444a3bdb0f73cf12e1, type: 3}
+  - shotgunPrefab: {fileID: 4803958809082934901, guid: 7b22a10f3ca02aa489a3754902da149a, type: 3}
+  - sniperPrefab: {fileID: 5106731287997040176, guid: 2b8e45202b2f6314a83c7f2ba74f16fa, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

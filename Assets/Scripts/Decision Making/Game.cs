@@ -28,6 +28,7 @@ public class Game : MonoBehaviour
         float size = Camera.main.orthographicSize;
         float aspect = Camera.main.aspect;
         xMin = -size * aspect; xMax = size * aspect;
+
         yMin = -size; yMax = size;
 
         shotgunRadius = shotgunPrefab.GetComponent<CircleCollider2D>().radius;
