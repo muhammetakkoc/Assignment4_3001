@@ -197,11 +197,11 @@ public class Enemy : MonoBehaviour
             if (Armed())
             {
                 float playerDistance = Vector2.Distance(transform.position, player.position);
-                if (hasShotgun && playerDistance <= 5f)
+                if (hasShotgun && playerDistance <= 7f)
                 {
                     ShootShotgun();
                 }
-                else if (hasSniper && playerDistance > 5f && hasSniper && playerDistance <= 10f)
+                else if (hasSniper && playerDistance > 7f && hasSniper && playerDistance <= 13f)
                 {
                     ShootSniper();
                 }
